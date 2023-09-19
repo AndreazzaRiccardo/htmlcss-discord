@@ -132,24 +132,26 @@
 /* MAIN */
 
     .main-section {
-        padding: 4rem 0;
+        padding: 3rem 0;
+        min-height: 450px;
     }
 
     .bg-section {
-        background-color: lightgrey;
+        background-color: #F6F6F6;
     }
 
     .row {
         display: flex;
+        justify-content: space-between;
+        align-items:center
     }
 
     .col-large {
-        width: 60%;
+        width: 58%;
     }
 
     .col-small {
-        width: 40%;
-        padding-top: 1.5rem;
+        width: 35%;
     }
 
     .col-small h2 {
