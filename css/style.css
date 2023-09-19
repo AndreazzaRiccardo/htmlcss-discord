@@ -35,6 +35,10 @@
         justify-content: space-between;
     }
 
+    .border-radius {
+        border-radius: 40px;
+    }
+
 /* HEADER */
 
     /* Navigation */
@@ -48,8 +52,7 @@
     .header-top {
         height: 4rem;
         background-color: #255EE9;
-        font-size: small;
-        font-weight: 550;
+        font-size: small;   
     }
 
     .header-logo,
@@ -68,11 +71,11 @@
     }
 
     .header-actions {
-        border-radius: 40px;
         background-color: white;
         text-align: center;
         width: 8%;
         padding: 5px;
+        font-weight: bold;
     }
 
     .header-nav li {
@@ -82,16 +85,52 @@
     /* Hero */
 
     .hero {
-        padding: 6rem 0;
-        /* Debug */
-        background-color: blue;
-        color: white;
+        padding: 8rem 0;
+        background-image: url(../img/jumbo.png);
+        background-size: cover;
+        background-position: center;
     }
 
     .hero-content {
-        background-color: violet;
-        width: 60%;
+        color: white;
+        width: 65%;
         margin: 0 auto;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        margin-top: 7px;
+    }
+
+    .hero-buttons {
+        margin-top: 1.5rem;
+        padding: 9px 15px;
+    }
+
+    .download {
+        background-color: white;
+        color: black;
+        text-decoration: inherit;
+        padding: inherit;
+        margin-right: 15px;
+    }
+
+    .open {
+        background-color: #23272A;
+        color: white;
+        text-decoration: inherit;
+        padding:inherit
+    }
+
+    .download span {
+        writing-mode: vertical-lr;
+        font-weight: bolder;
+        vertical-align: text-top;
     }
 
 /* MAIN */
