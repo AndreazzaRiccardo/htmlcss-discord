@@ -140,6 +140,8 @@
         background-color: #F6F6F6;
     }
 
+    /* Col section */
+
     .row {
         display: flex;
         justify-content: space-between;
@@ -166,11 +168,30 @@
         text-align: left;
     }
 
+    /* Big section */
 
-    .main-section .content {
-        /* Debug */
-        min-height: 400px;
-        background-color: lightgreen;
+    .content {
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .content h2 {
+        margin-bottom: 20px;
+        font-size: 1.9rem;
+    }
+
+    .section-button .download {
+        background-color: #7289DA;
+        padding: 9px 15px;
+        color: white;
+    }
+
+    .bg-stars {
+        margin-bottom: 2.5rem;
+        background-image: url(../img/stars.svg);
+        background-position: center;
+        background-size: contain;
+        padding: 0.5rem;
     }
 
 
