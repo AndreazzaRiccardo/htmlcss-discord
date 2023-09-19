@@ -20,7 +20,6 @@
         width: 80%;
         margin: 0 auto;
         max-width: 1100px;
-        border: 1px solid black
     }
 
     .flex-container {
@@ -96,15 +95,12 @@
         width: 65%;
         margin: 0 auto;
         text-align: center;
+        line-height: 1.5rem;
     }
 
     h1 {
         margin-bottom: 30px;
         font-size: 2.5rem;
-    }
-
-    .hero-content p {
-        margin-top: 7px;
     }
 
     .hero-buttons {
@@ -136,7 +132,7 @@
 /* MAIN */
 
     .main-section {
-        padding: 2rem 0;
+        padding: 4rem 0;
     }
 
     .bg-section {
@@ -148,24 +144,33 @@
     }
 
     .col-large {
-        width: 65%;
-        /* Debug */
-        background-color: lightgreen;
-        min-height: 300px;
+        width: 60%;
     }
 
     .col-small {
-        width: 35%;
-        /* Debug */
-        background-color: lightsalmon;
-        min-height: 300px;
+        width: 40%;
+        padding-top: 1.5rem;
     }
+
+    .col-small h2 {
+        font-size: 2rem;
+        text-align: left;
+        line-height: 2rem;
+    }
+
+    .col-small p {
+        margin-top: 1.5rem;
+        line-height: 1.5rem;
+        text-align: left;
+    }
+
 
     .main-section .content {
         /* Debug */
         min-height: 400px;
         background-color: lightgreen;
     }
+
 
 /* FOOTER */
 
