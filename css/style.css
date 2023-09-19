@@ -51,7 +51,7 @@
     .header-top {
         height: 4rem;
         background-color: #255EE9;
-        font-size: small;   
+        font-size: small;
     }
 
     .header-logo,
@@ -198,22 +198,49 @@
 /* FOOTER */
 
     footer {
-        background-color: darkslategray;
+        background-color: #23272A;
+    }
+
+    .footer-top {
+        padding: 3rem 0;
+        text-align: left;
+    }
+
+    /* Main column */
+
+    .main-column h5 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     .main-column {
         width: 30%;
-        /* Debug */
-        background-color: lightcyan;
+        color: #7289DA;
         min-height: 400px;
     }
+
+    .language-select {
+        color:white
+    }
+
+    .social-links a {
+        margin: 0.5rem;
+        color: white;
+        text-decoration: none;
+    }
+
+    .social-links {
+        margin-top: 1.5rem;
+    }
+
+    /* Menu column */
 
     .menu-column {
         width: 70%;
         display: flex;
         /* Debug */
         background-color: lightpink;
-        min-height: 400px;
+
     }
 
     .footer-menu {
